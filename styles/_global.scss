@@ -1,0 +1,125 @@
+html {
+  font-size: $base-font-size;
+
+  .zopim {
+    z-index: 7 !important;
+  }  
+}
+
+body {
+  font-family: var(--tg-family);
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-text);
+}
+
+
+a {
+  color: var(--color-button);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &.plain {
+    color: currentColor;
+
+    & svg {
+      color: currentColor;
+    }
+
+    &:hover {
+      text-decoration: none;
+      color: var(--color-button);
+    }
+
+    &.hover-underline {
+      &:hover {
+        color: inherit;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+address {
+  font-style: normal;
+
+  p {
+    word-break: break-word;
+  }
+}
+
+// .rz-page-content {
+//   max-width: var(--space-page-max-width);
+//   margin: 0 auto;
+//   padding: 0 var(--space-page-side-padding);
+// }
+
+// Re-write below two sets in client level if you need variations in container.
+.rz-main-content {
+  max-width: var(--main-space-page-max-width);
+  margin: 0 auto;
+}
+
+.rz-section-content {
+  max-width: var(--space-page-max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-page-side-padding);
+}
+
+.rz-full-width-banner {
+  max-width: var(--space-page-max-width);
+  margin: 0 auto;
+}
+
+.rz-hide {
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.hide-mobile {
+  display: none;
+  @media screen and (min-width: $breakpoint-sm) {
+    display: inherit;
+  }
+}
+
+.hide-ipad-start {
+  display: none;
+  @media screen and (min-width: $breakpoint-md) {
+    display: inherit;
+  }
+}
+
+.show-ipad-start {
+  display: inherit;
+  @media screen and (min-width: $breakpoint-md) {
+    display: none;
+  }
+}
+
+.hide-desktop {
+  display: inherit;
+  @media screen and (min-width: $breakpoint-sm) {
+    display: none;
+  }
+}
+
+.show-on-large-screen {
+  display: none;
+  @media screen and (min-width: $breakpoint-lg) {
+    display: inherit;
+  }
+}
+
+.error-message {
+  color: var(--color-error);
+}
+
+@media print {
+  .hide-on-print {
+    display: none;
+  }
+}

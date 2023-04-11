@@ -1,0 +1,76 @@
+:root {
+  --color-text-rev: #fff;
+  --os-theme-color: var(--color-text-rev);
+  --color-text-primary: #202020;
+  --color-text-secondary: #474E5A;
+  --color-black: #000000;
+  --color-text: var(--color-text-primary);
+  --color-error-main: #F87171;
+  --color-refurbished: #5141BD;
+  --color-refurbished-bg: #EFECFF;
+  --color-indicator: #FFED00;
+  --color-active: #1C6DD0;
+  --color-active-2: #17A555;
+  --color-button: var(--color-active);
+  --color-button-2: var(--color-text-secondary);
+  --color-breadcrumb: var(--color-text-secondary);
+  --color-breadcrumb-inactive: var(--color-text-primary);
+  --color-button-hover: #08458F;
+  --color-focus: #BB0628;
+  --color-disabled: #777;
+  --color-disabled-2: #9b9b9b;
+  --color-disabled-3: #d2d2d2;
+  --color-disabled-4: #c2c2c2;
+  --color-disabled-5: #ededed;
+  --color-grey: #9CA3AF; // Changed color
+  --color-grey-2: #6B7280; // Changed color
+  --color-grey-light: #d3d3d3;
+  --color-error: #ff0000;
+  --color-sticky-bg: var(--os-theme-color);
+  --color-sticky-text: var(--color-text-primary);
+  --color-search-bg: #F3F4F6;
+  --color-loader: #E5E5E5;
+  --color-sticky-icons-hover: #E0E0E0;
+  --color-brand-bar-bg: #faf5f5;
+  --color-border: #D1D5DB;
+  --color-inner-border: #E5E7EB;
+  --color-order-canceled: #DC2626;
+  --color-order-processing: #EAC608;
+  --color-order-success: #22C55E;
+  --color-order-success-dark: #15803D;
+  --color-order-suspected-fraud: #991413;
+  --color-order-on-hold: #0B65DA;
+  --color-order-payment-review: #FDD813;
+
+  --color-border-2: #D2D2D2;
+  --color-indicator-hover: #FFF027;
+  --color-refurbished-hover: #4231B2;
+
+  --color-footer-background: var(--color-button-hover);
+  --color-bottom-content-bg: #333;
+  --color-b2b: #FFA74D;
+  --color-b2b-hover: #F59F48;
+
+  --color-filter-page-search: var(--color-border);
+
+  --color-stock-indicator-available: var(--color-active);
+  --color-stock-indicator-not-available: var(--color-disabled-3);
+  --color-stock-indicator-fewleft: #D9A362;
+
+  --color-newsletter-indicator-subscribed: var(--color-active);
+  --color-newsletter-indicator-unsubscribed: var(--color-error);
+
+  --color-mypages-sidebar: transparent;
+  --color-mypages-loading-left: var(--color-loader);
+  --color-mypages-loading-right: var(--color-loader);
+
+  --color-input-field-border: #BFDBFE;
+  --color-checkout-left-bg: var(--color-search-bg);
+  --color-checkout-right-bg: transparent;
+  --color-indicator-new-product: var(--color-error-main);
+  --color-indicator-sale-product: var(--color-error-main);
+
+
+  --stock-indicatore-color-active: #22c55d;
+  --stock-indicatore-color-inactive: #f87171;
+}
