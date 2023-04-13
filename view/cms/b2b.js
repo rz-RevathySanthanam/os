@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import { withDependencySupport } from '@/roanuz/lib/dep';
 import styled from 'styled-components';
 
-export const BaseGalleryImageItemLayoutWrapper = styled.div`
+export const BaseB2BLayoutWrapper = styled.div`
 `;
 
-export const BaseGalleryImageItemLayout = ({
+export const BaseB2BLayout = ({
   media, title, subtitle, description, link,
 }) => (
-  <GalleryImageItemLayoutWrapper>
+  <B2BLayoutWrapper>
     <div className="banner-media">
       {media && (
         <>
@@ -39,10 +39,10 @@ export const BaseGalleryImageItemLayout = ({
         </div>
       )}
     </div>
-  </GalleryImageItemLayoutWrapper>
+  </B2BLayoutWrapper>
 );
 
-BaseGalleryImageItemLayout.propTypes = {
+BaseB2BLayout.propTypes = {
   media: PropTypes.element,
   title: PropTypes.element,
   subtitle: PropTypes.element,
@@ -50,5 +50,5 @@ BaseGalleryImageItemLayout.propTypes = {
   link: PropTypes.element,
 };
 
-export const GalleryImageItemLayout = withDependencySupport(BaseGalleryImageItemLayout, 'GalleryImageItemLayout');
-export const GalleryImageItemLayoutWrapper = withDependencySupport(BaseGalleryImageItemLayoutWrapper, 'GalleryImageItemLayoutWrapper');
+export const B2BLayout = withDependencySupport(BaseB2BLayout, 'B2BLayout');
+export const B2BLayoutWrapper = withDependencySupport(BaseB2BLayoutWrapper, 'B2BLayoutWrapper');
