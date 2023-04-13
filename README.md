@@ -1,6 +1,7 @@
 # The Omni Shop Package
 
 Entire `roanuz` has be moved to this repo and can be used as a sub module in your application.
+Editing to check the commit history
 
 ## Add Package as submodule in your App.
 
